@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.table-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.table {
+    background: #353030;
+    border: 2px solid #831515;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+.table.occupied {
+    background-color: #ffcccc; /* Kırmızı: Dolu masa */
+}
+
+.table.empty {
+    background-color: #ccffcc; /* Yeşil: Boş masa */
+}
+
+.table-number {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.people-count {
+    margin-top: 10px;
+    color: #666;
+}

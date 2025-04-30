@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kütüphane Masa Durumları</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Kütüphane Masa Durumları</h1>
+    
+    <div class="table-grid">
+        <div class="table empty" id="Table11">
+            <div class="table-number">Masa 11</div>
+            <div class="people-count">Kişi Sayısı: -</div>
+        </div>
+        <div class="table empty" id="Table12">
+            <div class="table-number">Masa 12</div>
+            <div class="people-count">Kişi Sayısı: -</div>
+        </div>
+        <div class="table empty" id="Table21">
+            <div class="table-number">Masa 21</div>
+            <div class="people-count">Kişi Sayısı: -</div>
+        </div>
+        <div class="table empty" id="Table22">
+            <div class="table-number">Masa 22</div>
+            <div class="people-count">Kişi Sayısı: -</div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
